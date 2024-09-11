@@ -36,6 +36,7 @@ section {
     width: 250px;
     background-color: whitesmoke;
     margin-bottom: 25px;
+    border-radius: 10px; 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -71,7 +72,7 @@ section img, #interest-gallery img, #pane div.polaroid img {
     width: 250px; 
     height: 250px;
     object-fit: cover; 
-    border-radius: 8px; 
+    border-radius: 10px; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
