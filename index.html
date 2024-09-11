@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to ITMD 541</title>
     <link rel="stylesheet" href="styles.css">
+    <style> body {margin: 25px};</style>
 </head>
 <body>
     <header>
@@ -14,15 +15,49 @@
     <section id="bio">
         <h2>About Me</h2>
         <img src="images/selfie.jpg" alt="Chimemezue Ezeani">
-        <p>Hi, I'm Chimemezue Clinton Ezeani, a passionate developer with experience in cloud infrastructure and administration. I have limited web design experience, however I have developed python applications and deployed them on cloud providers like AWS and Azure via Kubernetes.
-            I have a keen interest in AI and LLMs and I am constantly thinking of ways to improve human-computer interaction and accessibility by implementing some form of intelligence. I graduated from <a class="hyperlinks" href="https://www.iit.edu">IIT</a> with my Bachelors degree in Computer Engineering in Summer 2023</p>
+        <p>Hi, I'm Chimemezue Clinton Ezeani, a developer with experience in cloud infrastructure and administration. Although I have limited web design experience, I have developed python web applications with Flask and deployed them on cloud providers like AWS and Azure via Kubernetes.
+        I have a keen interest in AI and LLMs and I am constantly thinking of ways to improve human-computer interaction and accessibility by implementing some form of intelligence. I graduated from <a class="hyperlinks" href="https://www.iit.edu">IIT</a> with my Bachelors degree in Computer Engineering in Summer 2023</p>
     </section>
     <section id="class-info">
         <h2>About ITMD 541</h2>
-        <p></p>
+        <p>This class, taught by <a class=hyperlinks href="">Prof. Brian Bailey</a> will cover essential web technologies crucial for developing web-based applications typically accessed through a browser. The curriculum includes fundamental web protocols, web application architectures, and markup and scripting languages. Emphasis will be placed on writing modern, standards-compliant JavaScript and its interaction with HTML and CSS to create rich user interfaces and facilitate communication with other services.</p>
+    </section>
+    <section id="interest-gallery">
+        <h2>Hobbies and Interests</h2>
+        <div id="pane" class="gallery">
+            <div class="polaroid"> <!--The photos show up as polaroids with some info-->
+                <img src="images/soccer.jpg" alt="IIT RecSports champions">
+                <div id="write-up">
+                    <em>I'm a huge soccer fan. I love to play, watch and talk about it. On the club level, I support Manchester City</em>
+                </div>
+            </div>
+            <div class="polaroid">
+                <img src="images/formula-1.jpg" alt="Max Verstappen Turkey 2021">
+                <div id="write-up">
+                    <em>I enjoy keeping up with Formula 1. The fast cars, incredible engineering and the drama among drivers keep me entertained</em>
+                </div>
+            </div>
+            <div class="polaroid">
+                <img src="images/beatles.jpg" alt="Abbey Road">
+                <div id="write-up">
+                    <em>I love the Beatles. They have an incredible discography. Something, Hey Jude and i want to hold your hand are some of my personal favorites</em>
+                </div>
+            </div>
+            <div class="polaroid">
+                <img src="images/kayak.jpg" alt="Clinton Kayaking">
+                <div id="write-up">
+                    <em>I used to be afraid of water. However, going kayaking in Lake Michigan completely changed that.</em>
+                </div>
+            </div>
+        </div>
     </section>
     <footer>
-        <p>Connect with me on <a class="hyperlinks" href="https://www.linkedin.com/in/cezeani">LinkedIn</a></p>
+        <p>Connect with me on:</p>
+        <div class="social-media"> <!--Only LinkedIn works-->
+            <a href="https://www.linkedin.com/in/cezeani"><img src="images/linkedin.png" alt="LinkedIn"></a>
+            <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="images/twitter.png" alt="X (formerly known as Twitter)"></a>
+        </div>
     </footer>
 </body>
 </html>

@@ -24,20 +24,58 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-section img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 50%;
+
+#pane {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+#pane div.polaroid {
+    width: 250px;
+    background-color: whitesmoke;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#write-up {
+    justify-content: center;
+    display: flex;
+    padding: 10px 20px;
+}
+
+a .hyperlinks {
+    color: blue;
+}
+
+a .hyperlinks:hover {
+    color:blueviolet;
+    text-decoration: underline;
 }
 
 footer {
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     background-color: #333;
     color: #fff;
 }
 
-footer a {
-    color: #fff;
-    text-decoration: none;
+footer .social-media {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+section img, #interest-gallery img, #pane div.polaroid img {
+    width: 250px; 
+    height: 250px;
+    object-fit: cover; 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer .social-media img {
+    width: 25px;
+    height: 25px;
 }
