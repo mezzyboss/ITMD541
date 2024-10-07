@@ -13,5 +13,5 @@ function countVowels(str) {
   
   // Testing time
   let testWords = ['Brian', 'WebApps', 'pneumonoultramicrosilicovolcanoconiosis'];
-  testWords.forEach(word => console.log(word + ': ' + countVowels(word) + ' vowels'));
+  testWords.forEach(word => console.log(word + ': ' + countVowels(word) + ' vowels')); //print out the result in the required format
   
